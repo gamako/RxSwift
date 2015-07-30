@@ -43,17 +43,8 @@ func rxError(errorCode: RxCocoaError, message: String, userInfo: NSDictionary) -
     return NSError(domain: RxCocoaErrorDomain, code: Int(errorCode.rawValue), userInfo: resultInfo)
 }
 
-func removingObserverFailed() {
-    rxFatalError("Removing observer for key failed")
-}
-
 func handleVoidObserverResult(result: RxResult<Void>) {
     handleObserverResult(result)
-}
-
-func rxFatalError(lastMessage: String) {
-    // The temptation to comment this line is great, but please don't, it's for your own good. The choice is yours.
-    fatalError(lastMessage)
 }
 
 func bindingErrorToInterface(error: ErrorType) {
@@ -131,12 +122,3 @@ let delegateNotSet = "Delegate not set"
 
 // }
 
-
-extension NSObject {
-    func rx_synchronized<T>(@noescape action: () -> T) -> T {
-        objc_sync_enter(self)
-        let result = action()
-        objc_sync_exit(self)
-        return result
-    }
-}
