@@ -8,7 +8,6 @@
 
 import Foundation
 import Cocoa
-import RxSwift
 
 class RxTextFieldDelegate : DelegateProxy
                           , NSTextFieldDelegate

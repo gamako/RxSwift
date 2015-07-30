@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 func escapeTerminalString(value: String) -> String {
     return value.stringByReplacingOccurrencesOfString("\"", withString: "\\\"", options: NSStringCompareOptions.allZeros, range: nil)

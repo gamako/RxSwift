@@ -7,7 +7,6 @@
 //
 
 import CoreLocation
-import RxSwift
 
 class RxCLLocationManagerDelegateProxy : DelegateProxy
                                        , CLLocationManagerDelegate

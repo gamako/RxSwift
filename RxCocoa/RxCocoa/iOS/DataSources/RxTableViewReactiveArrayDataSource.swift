@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import RxSwift
 
 // objc monkey business
 class _RxTableViewReactiveArrayDataSource: NSObject, UITableViewDataSource {

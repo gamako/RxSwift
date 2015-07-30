@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 // `DelegateProxyType` protocol enables using both normal delegates and Rx observables with
 // views that can have only one delegate/datasource registered.

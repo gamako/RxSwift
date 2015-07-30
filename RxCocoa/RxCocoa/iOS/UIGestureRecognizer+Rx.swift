@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import RxSwift
 
 
 // This should be only used from `MainScheduler`

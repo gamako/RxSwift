@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 extension NSNotificationCenter {
     public func rx_notification(name: String, object: AnyObject?) -> Observable<NSNotification> {

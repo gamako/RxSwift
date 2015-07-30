@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 import UIKit
 
 // Please take a look at `DelegateProxyType.swift`

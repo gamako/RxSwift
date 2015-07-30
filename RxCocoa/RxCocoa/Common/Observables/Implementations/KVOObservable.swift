@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 class KVOObservable<Element> : Producer<Element?>
                              , KVOObservableProtocol {

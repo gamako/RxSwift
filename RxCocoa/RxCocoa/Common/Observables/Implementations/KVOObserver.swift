@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 protocol KVOObservableProtocol {
     var target: AnyObject { get }

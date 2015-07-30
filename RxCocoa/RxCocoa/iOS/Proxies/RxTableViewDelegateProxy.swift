@@ -8,7 +8,6 @@
 
 import Foundation
 import UIKit
-import RxSwift
 
 // Please take a look at `DelegateProxyType.swift`
 class RxTableViewDelegateProxy : RxScrollViewDelegateProxy

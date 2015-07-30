@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 import Cocoa
 
 extension NSImageView {

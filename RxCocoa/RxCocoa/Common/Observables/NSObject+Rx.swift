@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 #if !DISABLE_SWIZZLING
 var deallocatingSubjectTriggerContext: UInt8 = 0

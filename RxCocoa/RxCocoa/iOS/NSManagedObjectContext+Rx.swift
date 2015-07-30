@@ -8,7 +8,6 @@
 
 import Foundation
 import CoreData
-import RxSwift
 
 class FetchResultControllerSectionObserver: NSObject, NSFetchedResultsControllerDelegate, Disposable {
     typealias Observer = ObserverOf<[NSFetchedResultsSectionInfo]>

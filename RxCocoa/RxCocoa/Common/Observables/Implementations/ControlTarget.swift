@@ -7,7 +7,6 @@
 //
 
 import Foundation
-import RxSwift
 
 #if os(iOS)
     import UIKit

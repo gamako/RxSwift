@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import RxSwift
 
 class RxAlertViewDelegateProxy : DelegateProxy
                                  , UIAlertViewDelegate

@@ -8,7 +8,6 @@
 
 import Foundation
 import Cocoa
-import RxSwift
 
 extension NSControl {
     
